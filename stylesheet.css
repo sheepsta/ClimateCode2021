@@ -1,0 +1,12 @@
+body {
+  background-image: url('background.jpg')
+}
+
+h1{
+  font-family: 'Exo 2', sans-serif;
+}
+
+#logoandtext{
+  width: 100%;
+  text-align: center;
+}

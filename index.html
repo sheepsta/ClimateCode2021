@@ -1,0 +1,47 @@
+<!--Python function returns location with an array of 5 values in the following order: total score/100, precipitation score/30, temperature score/50, wind score/5, and pressure score/15 -->
+
+<!Doctype html>
+<html>
+
+<head>
+	<title>Sprare</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="script.js">
+	</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <span id="logoandtext"><img src="logo.jpeg" alt="logo image"><h1>Sprare</h1></span>
+
+	<form name="locations" action="main.py" method="get">
+		<div id="locationform">
+			<label for="location1">Location 1</label>
+        <input id="autocomplete" name = "location1" type="text" placeholder="Location"/></br></br>
+      </div>
+      <!--<script>
+        function initialize() {
+          var input = document.getElementById('autocomplete');
+          new google.maps.places.Autocomplete(input);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXVsUYmGjCiD9ehXd25XvCqLF8AzyLCRY&libraries=places&callback=initialize"></script>-->
+      
+      <button type="button" onclick="newlocation()">Add location</button>
+
+      <input type="submit">
+    </form>
+
+  </body>
+
+  <footer>
+  
+  </footer>
+
+</html>
